@@ -1,0 +1,27 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: pidgin-improved-privacy
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, config-package-dev (>= 5.1)
+Homepage: https://github.com/Whonix/pidgin-improved-privacy
+Vcs-Browser: https://github.com/Whonix/pidgin-improved-privacy
+Vcs-Git: https://github.com/Whonix/pidgin-improved-privacy.git
+Standards-Version: 3.9.4
+
+Package: pidgin-improved-privacy
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: pidgin, pidgin-otr
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Improves Pidgin's Privacy
+ Deactivates protocols, that are not suited in context of anonymity
+ distributions, because because those do not support
+ authenticated/encrypted connections to the server, i.e. all protocols
+ besides jabber and irc.
+ .
+ TODO: https://tails.boum.org/contribute/design/#index42h3
