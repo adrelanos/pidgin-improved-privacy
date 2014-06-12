@@ -20,7 +20,7 @@ Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Improves Pidgin's Privacy
  Deactivates protocols, that are not suited in context of anonymity
- distributions, because because those do not support
+ distributions, because those do not support
  authenticated/encrypted connections to the server, i.e. all protocols
  besides jabber and irc.
  .
