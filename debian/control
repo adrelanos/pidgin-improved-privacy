@@ -19,7 +19,7 @@ Recommends: pidgin, pidgin-otr
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Improves Pidgin's Privacy
- Metapackage that deactivates protocols, that are not suited in context of
+ A metapackage that deactivates protocols, that are not suited in context of
  anonymity distributions, because those do not support authenticated/encrypted
  connections to the server, i.e. all protocols besides jabber and irc.
  .
