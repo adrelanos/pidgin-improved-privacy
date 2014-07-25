@@ -1,0 +1,2 @@
+# config-package-dev will use that folder for hide operation.
+pidgin-improved-privacy: package-contains-empty-directory usr/share/pidgin-improved-privacy/
