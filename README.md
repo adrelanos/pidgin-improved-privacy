@@ -1,9 +1,8 @@
 # Improves Pidgin's Privacy #
 
-Deactivates protocols, that are not suited in context of anonymity
-distributions, because those do not support
-authenticated/encrypted connections to the server, i.e. all protocols
-besides jabber and irc.
+A metapackage that deactivates protocols, that are not suited in context of
+anonymity distributions, because those do not support authenticated/encrypted
+connections to the server, i.e. all protocols besides jabber and irc.
 
 TODO: https://tails.boum.org/contribute/design/#index42h3
 
